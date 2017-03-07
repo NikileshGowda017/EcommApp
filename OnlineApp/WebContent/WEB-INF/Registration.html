@@ -2,9 +2,65 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>Registration Portal</title>
+<style>
+.b
+{
+border: 100px;
+border-color: black;
+border-left: inherit;
+border-left: thick;
+text-align: center;
+}
+.center
+{
+text-align: center;
+background-color: windowframe;
+font-family: cursive;
+font-style: oblique; 
+}
+.div
+{
+
+font-size: 22px;
+font-style: italic;
+font-weight: bolder;
+}
+
+</style>
 </head>
-<body>
-<h1> welcome to registration Page</h1>
+<body class="b">
+<h1 class="center">Welcome to Register Page </h1>
+<div align="center">
+<form action="" method="post">
+<table>
+<tr>
+<td class="div">Name: <sup class= "req"><font color="red">*</font></sup></td>
+<td><input type="text" name="txt1" required="required"/><br/></td></tr>
+<tr>
+<td class="div">Date-Of-Birth:<sup class= "req"><font color="red">*</font></sup></td>
+<td><input type="date" name="txt3"/><br /></td>
+</tr>
+<tr>
+<td class="div">Gender:<sup class= "req"><font color="red">*</font></sup></td>
+<td><input type="radio" name="gender" value="male"/> M
+             <input type="radio" name="gender" value="Female"/>F<br /></td>
+             </tr>
+ <tr>            
+<td class="div">Mobile Num:</td>
+<td><input type="number" name="txt5"/><br /></td>
+</tr>
+<tr>
+<td class="div">Email-id:<sup class= "req"><font color="red">*</font></sup></td>
+<td><input type="email" name="txt6"/><br /></td>
+</tr>
+<tr>
+<td class="div">Password:<sup class= "req"><font color="red">*</font></sup></td>
+<td><input type="password" name="txt6"/><br /></td>
+<table><thead><input type="submit" value="Register"/></thead></table>
+</tr>
+</table>
+</form>
+</div>
 </body>
 </html>
